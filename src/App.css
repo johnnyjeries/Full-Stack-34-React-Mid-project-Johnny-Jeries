@@ -1,0 +1,96 @@
+/* styles.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+.users-border{
+  border: solid grey 1px;
+  border-radius:10%
+}
+.users{
+  min-height: auto;
+  max-height: 400px;
+  min-width:420px;
+}
+
+.users *{
+  margin: 5px;
+}
+
+.posts_todos{
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.user-green{
+  border: solid green 1.5px;
+  margin: 5px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.user-red{
+  border: solid red 1.5px;
+  margin: 5px;
+  height: auto;
+}
+
+.purple-border{
+  border: solid purple 1.5px;
+  padding: 15px;
+  max-width:450px;
+  min-height:130px;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 20px 0;
+
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: left;
+}
+
+.yellow-btn{
+  background-color: #ffe699;
+  width:auto;
+  height:auto;
+  font-size:15px;
+  float:right;
+}
+
+.grey-button{
+  background-color: rgb(204, 203, 203);
+}
+
+.add-user{
+  position: absolute;
+  left: 370px;
+}
+
+.add-post{
+  height: 30px;
+  font-size: 12px;
+  position: relative;
+  bottom: 10px;
+}
+
+.add-todos{
+  height: 30px;
+  font-size: 12px;
+  position: relative;
+  bottom: 10px;
+}
+
+.new-user{
+  position: absolute;
+  top: 47px;
+  left: 455px;
+}
